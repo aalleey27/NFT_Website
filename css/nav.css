@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #0c172c !important;
+    
+}
+.spe {
+    position: relative;
+    left: 10%;
+    width: 70%;
+    justify-content: space-around;
+    color: white !important;
+}
+.nav-item a  {
+    color: white;
+}
+
+#spe-btn {
+    width: 12rem;
+    height: 8vh;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #1199FA;
+}

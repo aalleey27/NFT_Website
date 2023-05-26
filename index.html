@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css
-    ">
+    "><link rel="stylesheet" href="/css/nav.css">
     <title>Drakos| NFT</title>
 </head>
 
@@ -15,21 +15,43 @@
 
     <!-- <<<<<<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>>>> -->
 
-    <nav class="navbar">
-        <div class="nav-image"><img width="58px" height="75px" src="/images/logo.png" alt="logo"></div>
-        <div class="nav-text">
-            <h3>Drakos|<span id="nft">NFT</span> </h3>
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li>Burn Draku</li>
-                <li>$Egg Auction</li>
-                <li>Rafle Tickets</li>
-                <li>P2P Tickets</li>
-            </ul>
-        </div>
-        <div class="nav-btn">
-            <button class="btn-primary nav-btn">Connect Wallet</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
+            <a class="navbar-brand" href="#">Drakos|<span>NFT</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 spe">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="#">Burn a Drako</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">$Egg Auction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Raffle Tickets</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            P2P Trading
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <Button id="spe-btn">Connect Wallet</Button>
+            </div>
         </div>
     </nav>
     <div class="line"></div>
@@ -738,7 +760,7 @@
             </div>
             <div class="product-bottom">
                 <div class="p-b-l">
-                    <img src="/bottom-images/egg-token 1.png" alt="">
+                    <img id="size" src="/bottom-images/egg-token 1.png" alt="">
                 </div>
                 <div class="p-b-m">
                     <h1>$EGG TOKEN</h1>
@@ -746,7 +768,7 @@
                         monetizing your gaming experiences by joining a Drakos battle.</p>
                 </div>
                 <div class="p-b-r">
-                    <img src="/bottom-images/egg-token 1.png" alt="">
+                    <img id="size" src="/bottom-images/egg-token 1.png" alt="">
                 </div>
             </div>
         </div>
